@@ -14,7 +14,7 @@ Analyze the data and determine how many employees are retiring grouped by their 
 
 * As shown on the "Retiring Titles" table, most of the employees up for retirement are Senior Engineers or Senior Staff.
 
-!["Retiring Titles"](https://github.com/psidhu42/pyber-analysis/blob/main/analysis/Summary_df.png)
+!["Retiring Titles"](https://github.com/psidhu42/pewlett-hackard-analysis/blob/main/images/retiring_titles_table.PNG)
 
 * The title group with the lowest employees up for retirement is Managers, at 2.
 
