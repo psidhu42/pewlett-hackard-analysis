@@ -2,7 +2,7 @@
 
 ## Overview of Project
 
-Analyze the employee data from "Pewlett-Hackard" to determine how many employees will retireing soon.
+Analyze the employee data from "Pewlett-Hackard" to determine how many employees will retiring soon.
 
 ### Purpose
 
@@ -10,36 +10,19 @@ Analyze the data and determine how many employees are retiring grouped by their 
 
 ## Results of Analysis
 
-* The total number of votes cast: (369,711) 
+* Based on the "Unique Titles" and "Retiring Titles" tables there are 72,458 employees up for retirement.
 
-* County Votes:
-    - Jefferson: 10.5% (38,855)
-    - Denver: 82.8% (306,055)
-    - Arapahoe: 6.7% (24,801)
+* As shown on the "Retiring Titles" table, most of the employees up for retirement are Senior Engineers or Senior Staff.
 
-### PyBer Summary DataFrame
+!["Retiring Titles"](https://github.com/psidhu42/pyber-analysis/blob/main/analysis/Summary_df.png)
 
-![PyBer Summary DataFrame](https://github.com/psidhu42/pyber-analysis/blob/main/analysis/Summary_df.png)
+* The title group with the lowest employees up for retirement is Managers, at 2.
 
-As seen in the DataFrame above, although Urban cities have larger totals for Rides, Drivers, and Total Fares, they have the lowest Average Fares per Ride/Driver. Rural cities have the fewest Total Rides and Drivers but have about 3.35 times the Average Fare per Driver of Urban cities. Average Fare per Ride for each city type has a smaller difference than that of Average Fare per Driver for each city type.
+* Looking at the "Mentorship Eligibility" table we can see that there are 1,549 employees that qualify for the mentorship program.
 
-This Bubble Chart is a good visual representation of the Average Fares and Total Number of Rides by City Type.
+### Summary
 
-![PyBer Bubble Chart](https://github.com/psidhu42/pyber-analysis/blob/main/analysis/Fig1.jpg)
+As employees start to retire, 72,458 rolls will need to be filled. 25,916 Senior Engineers, 24,926 Senior Staff, 9,285 Engineers, 7,636 Staff, 3,603 Technique Leaders, 1,090 Assistant Engineers, and 2 Managers. There are 1,549 employees eligible for the mentorship program. The current tables however do not provide a break down by department.
 
-### PyBer Weekly Summary
+A table that breaks down mentorship qualified employees by their department and title, and a table that shows how long an employee has worked in their current position to determine if they could be up for promotion, are a couple suggestions on additional queries or tables.
 
-The data above was organized and sorted by dates and fares to better see how each city type performed on a weekly basis.
-
-Here is an example of the new DataFrame created to help with the analysis.
-
-![Fares by Week DataFrame](https://github.com/psidhu42/pyber-analysis/blob/main/analysis/fare_by_week_df.PNG)
-
-Once sorted into weekly bins the data was plotted as a multiple-line graph, shown below. In this line graph we can see that Urban City Weekly Fares stayed mostly between the $2,000 and $2,500 amount. Both Urban and Suburban cities started off lower at the beginning of the year and jumped up in the first week. Rural City Weekly Fares, shown in blue, are the lowest, and mostly are below the $500 line. All 3 city types however jumped up towards the end of February, and went back down the first week of March.
-
-![Weekly Fares Multi-line Graph](https://github.com/psidhu42/pyber-analysis/blob/main/analysis/PyBer_fare_summary.png)
-
-
-## Summary
-
-In summary there are a few business recommendations, the first would be to decrease the difference in Average Fare per Ride between each city type, a more consistent average fare per ride would incentivize riders everywhere to use the service more often. The second is to increase the number of divers in the rural cities, this may help reduce the average cost of rides, which in turn would increase the number of people requesting rides, increasing profits. The third recommendation is similar in a sense to the 2nd, reduce the number of drivers in Urban cities, less drivers would mean a higher Average Fare per Driver.

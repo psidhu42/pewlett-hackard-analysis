@@ -38,7 +38,7 @@ SELECT * FROM retiring_titles;
 -- Deliverable 2: The Employees Eligible for the Mentorship Program
 
 SELECT DISTINCT ON (emp_no) e.emp_no, e.first_name, e.last_name, e.birth_date, de.from_date, de.to_date, ti.title
-INTO mentorship_eligibilty
+INTO mentorship_eligibility
 FROM employees AS e
 INNER JOIN dept_emp AS de
 ON (e.emp_no = de.emp_no)
@@ -49,5 +49,5 @@ AND (de.to_date = '9999-01-01')
 ORDER BY emp_no;
 
 -- Check the table
-SELECT * FROM mentorship_eligibilty;
+SELECT * FROM mentorship_eligibility;
 
