@@ -16,7 +16,7 @@ Analyze the data and determine how many employees are retiring grouped by their 
 
 * Looking at the "Mentorship Eligibility" table we can see that there are 1,549 employees that qualify for the mentorship program.
 
-* As shown on the "Retiring Titles" table, most of the employees up for retirement are Senior Engineers or Senior Staff.
+* As shown below on the "Retiring Titles" table, most of the employees up for retirement are Senior Engineers or Senior Staff.
 
 !["Retiring Titles Code"](https://github.com/psidhu42/pewlett-hackard-analysis/blob/main/images/retiring_titles_code.PNG) !["Retiring Titles"](https://github.com/psidhu42/pewlett-hackard-analysis/blob/main/images/retiring_titles_table.PNG)
 
