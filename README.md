@@ -12,11 +12,11 @@ Analyze the data and determine how many employees are retiring grouped by their 
 
 * Based on the "Unique Titles" and "Retiring Titles" tables there are 72,458 employees up for retirement.
 
-* As shown on the "Retiring Titles" table, most of the employees up for retirement are Senior Engineers or Senior Staff.
-
 * The title group with the lowest employees up for retirement is Managers, at 2.
 
 * Looking at the "Mentorship Eligibility" table we can see that there are 1,549 employees that qualify for the mentorship program.
+
+* As shown on the "Retiring Titles" table, most of the employees up for retirement are Senior Engineers or Senior Staff.
 
 !["Retiring Titles Code"](https://github.com/psidhu42/pewlett-hackard-analysis/blob/main/images/retiring_titles_code.PNG) !["Retiring Titles"](https://github.com/psidhu42/pewlett-hackard-analysis/blob/main/images/retiring_titles_table.PNG)
 
