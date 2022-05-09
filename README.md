@@ -18,7 +18,7 @@ Analyze the data and determine how many employees are retiring grouped by their 
 
 * Looking at the "Mentorship Eligibility" table we can see that there are 1,549 employees that qualify for the mentorship program.
 
-!["Retiring Titles"](https://github.com/psidhu42/pewlett-hackard-analysis/blob/main/images/retiring_titles_table.PNG) !["Retiring Titles Code"](https://github.com/psidhu42/pewlett-hackard-analysis/blob/main/images/retiring_titles_code.PNG)
+!["Retiring Titles Code"](https://github.com/psidhu42/pewlett-hackard-analysis/blob/main/images/retiring_titles_code.PNG) !["Retiring Titles"](https://github.com/psidhu42/pewlett-hackard-analysis/blob/main/images/retiring_titles_table.PNG)
 
 ### Summary
 
